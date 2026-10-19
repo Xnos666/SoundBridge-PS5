@@ -1,0 +1,24 @@
+SoundBridge PS5
+Licensed under GPL-3.0-or-later (see LICENSE).
+
+This project includes code from:
+
+  HearBridge-PS5
+  Copyright (c) 2026 X-F1REBALL-X
+  https://github.com/X-F1REBALL-X/HearBridge-PS5
+  GPL-3.0-or-later
+  Used: the libSceAvcap2 audio capture (src/avcap2.c, src/avcap2.h),
+  credentials (src/creds.c, src/creds.h), and the log, lock, stop-file,
+  notification and clock helpers (src/log.*, src/lock.*, src/stop.*,
+  src/notify.*, src/util.*), by way of the BlueBridge / WiredBridge
+  integrations. src/avcap2.c has smaller log output and a note on the
+  minimum read size; src/stop.h uses /data/soundbridge.
+
+  The import allow-list (imports-1.0.2.txt, check_imports.sh) comes from
+  the same lineage.
+
+Built with ps5-payload-sdk (https://github.com/ps5-payload-dev/sdk).
+
+SoundBridge is an independent homebrew project. It is not affiliated with,
+endorsed by, or sponsored by Sony Interactive Entertainment. "PlayStation"
+and "PS5" are trademarks of Sony Interactive Entertainment Inc.

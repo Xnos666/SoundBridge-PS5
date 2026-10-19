@@ -1,0 +1,6 @@
+build/
+dist/
+*.o
+*.res
+*.log
+*.ini
