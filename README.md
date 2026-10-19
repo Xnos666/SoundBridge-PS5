@@ -10,8 +10,8 @@ A payload for jailbroken PS5 consoles that streams game audio over your home
 network to a small Windows app, with as little delay as the network allows.
 No PSN, no Remote Play, no capture card.
 
-[**Website**](https://wwwshelton19-spec.github.io/SoundBridge-PS5/) ·
-[**Download**](https://github.com/wwwshelton19-spec/SoundBridge-PS5/releases/latest) ·
+[**Website**](https://Xnos666.github.io/SoundBridge-PS5/) ·
+[**Download**](https://github.com/Xnos666/SoundBridge-PS5/releases/latest) ·
 [How it works](#how-it-works) ·
 [Build](#build)
 
@@ -39,7 +39,7 @@ sound has nowhere to go. SoundBridge sends it to the PC.
 ## Quick start
 
 1. Download `SoundBridge_PS5_13.60.elf` and `SoundBridge_Windows.zip` from the
-   [latest release](https://github.com/wwwshelton19-spec/SoundBridge-PS5/releases/latest).
+   [latest release](https://github.com/Xnos666/SoundBridge-PS5/releases/latest).
 2. Unzip it on the PC and open **SoundBridge.exe**. Allow it through the Windows firewall if asked.
 3. Send the `.elf` to your PS5's ELF loader (port 9021), for example with PS5Upload.
 4. The app turns green, *Connected*, and the game sound plays on your PC.
